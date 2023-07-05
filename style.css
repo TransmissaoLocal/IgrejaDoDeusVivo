@@ -5,8 +5,8 @@
   }
   
   a {
-	  text-decoration: none;
-	  color: inherit;
+    text-decoration: none;
+    color: inherit;
   }
   
   .image-container {
@@ -86,4 +86,28 @@
   
     font-family: Trebuchet MS, sans-serif;
     font-size: 20px
+  }
+
+ @media (max-width: 600px) {
+    .body-container {
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+    
+    .box {
+      width: 100%;
+      height: 30vh;
+      padding-top: 16px;
+
+    }
+    
+    legend {
+      padding-left: 10px;
+      padding-right: 10px;
+
+    }
+    
+    .text-overlay {
+      font-size: 40px;
+    }
   }
